@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id=" @+id/menu_map_type"
+        android:title="地图类型">
+        <menu>
+            <item
+                android:id="@+id/MAP_TYPE_NORMAL"
+                android:title="普通地图">
+            </item>
+            <item
+                android:id="@+id/MAP_TYPE_NAVI"
+                android:title="导航地图">
+            </item>
+            <item
+                android:id="@+id/MAP_TYPE_NIGH"
+                android:title="夜景地图">
+            </item>
+            <item
+                android:id="@+id/MAP_TYPE_SATELLITE"
+                android:title="卫星地图">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:title="定位模式"
+        android:id="@+id/menu_map_location">
+        <menu>
+            <item
+                android:id="@+id/LOCATION_TYPE_LOCATION_ROTATE"
+                android:title="连续定位">
+            </item>
+            <item
+                android:title="定位一次"
+                android:id="@+id/LOCATION_TYPE_LOCATE">
+            </item>
+        </menu>
+    </item>
+</menu>
